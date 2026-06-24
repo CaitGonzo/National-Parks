@@ -26,3 +26,8 @@ Accessibility:
 - Plain-language column names  
 - Decimal degree coordinates (WGS84)  
 - Compatible with GIS and spreadsheet tools 
+
+Notes:
+- “Nearest international airport” is based on practical travel proximity, not just strict geodesic distance. 
+- Some remote parks (especially Alaska) use the closest major airport with international capability, even if regional airstrips are closer. 
+- Visitor centers selected are the primary or most commonly used entry points. 
