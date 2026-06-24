@@ -1,0 +1,152 @@
+# National Parks 
+# JSON Metadata with Spatial Coordinates
+
+{
+  "dataset": {
+    "name": "National Parks Attendance and Accessibility",
+    "description": "Monthly recreation visits and accessibility metrics for U.S. National Parks, enriched with spatial coordinates for GIS and mapping applications.",
+    "source": "User-generated dataset (National Parks Case Study)",
+    "update_frequency": "Monthly",
+    "temporal_coverage": {
+      "start_year": 1995,
+      "end_year": 2025
+    },
+    "geographic_scope": "United States",
+    "coordinate_system": "WGS84 (EPSG:4326)",
+    "spatial_resolution": "Park-level (centroid coordinates)",
+    "tags": [
+      "national parks",
+      "tourism",
+      "GIS",
+      "geospatial",
+      "travel accessibility",
+      "time series"
+    ]
+  },
+
+  "spatial_reference": {
+    "type": "Point",
+    "geometry_fields": {
+      "latitude": "decimal degrees",
+      "longitude": "decimal degrees"
+    }
+  },
+
+  "park_coordinates": {
+    "ACAD": {
+      "park_name": "Acadia National Park",
+      "state": "ME",
+      "latitude": 44.3386,
+      "longitude": -68.2733
+    },
+    "ARCH": {
+      "park_name": "Arches National Park",
+      "state": "UT",
+      "latitude": 38.7331,
+      "longitude": -109.5925
+    }
+  },
+
+  "schema": [
+    {
+      "name": "Park_Name",
+      "type": "string",
+      "description": "Name of the national park"
+    },
+    {
+      "name": "Unit_Code",
+      "type": "string",
+      "description": "Unique park identifier (used to join spatial coordinates)"
+    },
+    {
+      "name": "State",
+      "type": "string",
+      "description": "State abbreviation"
+    },
+    {
+      "name": "Year",
+      "type": "integer",
+      "description": "Year of observation"
+    },
+    {
+      "name": "Month",
+      "type": "integer",
+      "description": "Month of observation (1–12)"
+    },
+    {
+      "name": "Recreation_Visits",
+      "type": "integer",
+      "description": "Monthly recreation visits"
+    },
+    {
+      "name": "Region",
+      "type": "string",
+      "description": "NPS administrative region"
+    },
+    {
+      "name": "Nearest_Airport",
+      "type": "string",
+      "description": "Closest major airport"
+    },
+    {
+      "name": "Distance_Miles",
+      "type": "float",
+      "description": "Distance to park in miles"
+    },
+    {
+      "name": "Drive_Time_Hours",
+      "type": "float",
+      "description": "Estimated drive time to park"
+    },
+    {
+      "name": "Latitude",
+      "type": "float",
+      "description": "Latitude of park centroid (WGS84)"
+    },
+    {
+      "name": "Longitude",
+      "type": "float",
+      "description": "Longitude of park centroid (WGS84)"
+    }
+  ],
+
+  "relationships": [
+    {
+      "type": "spatial_join",
+      "key": "Unit_Code",
+      "description": "Join park data with spatial coordinates using Unit Code"
+    },
+    {
+      "type": "temporal",
+      "fields": ["Year", "Month"],
+      "description": "Monthly time series observations"
+    }
+  ],
+
+  "primary_key": ["Unit_Code", "Year", "Month"],
+
+  "geojson_hint": {
+    "example_feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.2733, 44.3386]
+      },
+      "properties": {
+        "Park_Name": "Acadia NP",
+        "Unit_Code": "ACAD",
+        "Year": 2025,
+        "Month": 8,
+        "Recreation_Visits": 844268
+      }
+    }
+  },
+
+  "data_quality": {
+    "notes": [
+      "Coordinates represent park centroid, not boundaries",
+      "Useful for mapping and proximity analysis but not detailed spatial modeling",
+      "Can be enhanced with polygon shapefiles for park boundaries"
+    ]
+  }
+}
