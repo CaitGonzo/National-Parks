@@ -14,6 +14,9 @@ This structure is highly suitable for:
 - GIS integration
 - Dashboard visualizations
 - Data catalogs and API deployment.
+  
+Fact dataset: "Attendance"
+Dimension/Support datasets: "Location", "Pivot Table"
 
 License: 
 CC0 1.0 Universal (Public Domain). 
