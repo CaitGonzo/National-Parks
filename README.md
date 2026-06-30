@@ -16,6 +16,7 @@ This structure is highly suitable for:
 - Data catalogs and API deployment.
   
 Fact dataset: "Attendance"
+
 Dimension/Support datasets: "Location", "Pivot Table"
 
 License: 
