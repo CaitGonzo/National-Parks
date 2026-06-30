@@ -6,6 +6,12 @@ The purpose of this project is to determine if a National Park's proximity to an
 Dataset Name: 
 U.S. National Parks Visitor Centers and Nearest Airports 
 
+Dataset structure:
+The dataset has a tabular, longitudinal (time-series), and observational structure. 
+Example: 
+  Park_Name	State	Year	Month	Recreation_Visits	Unit Code
+  Acadia NP	ME	  1995	1	    14,894	          ACAD
+
 License: 
 CC0 1.0 Universal (Public Domain). 
 This dataset is compiled from publicly available U.S. government sources (NPS, FAA, and open geographic data). 
