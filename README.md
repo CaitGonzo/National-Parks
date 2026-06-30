@@ -7,10 +7,13 @@ Dataset Name:
 U.S. National Parks Visitor Centers and Nearest Airports 
 
 Dataset structure:
-The dataset has a tabular, longitudinal (time-series), and observational structure. 
-Example: 
-  Park_Name	State	Year	Month	Recreation_Visits	Unit Code
-  Acadia NP	ME	  1995	1	    14,894	          ACAD
+A longitudinal panel dataset in tidy (long) format that combines monthly National Park visitation statistics with geographic and accessibility attributes for spatial, temporal, and tourism analysis.
+This structure is highly suitable for:
+- Correlation analysis (like your drive-time study)
+- Regression modeling
+- GIS integration
+- Dashboard visualizations
+- Data catalogs and API deployment.
 
 License: 
 CC0 1.0 Universal (Public Domain). 
