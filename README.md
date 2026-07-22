@@ -9,11 +9,10 @@ U.S. National Parks Visitor Centers and Nearest Airports
 Dataset structure:
 A longitudinal panel dataset in tidy (long) format that combines monthly National Park visitation statistics with geographic and accessibility attributes for spatial, temporal, and tourism analysis.
 This structure is highly suitable for:
-- Correlation analysis (like your drive-time study)
+- Correlation analysis
 - Regression modeling
 - GIS integration
 - Dashboard visualizations
-- Data catalogs and API deployment.
   
 Fact dataset: "Attendance"
 
