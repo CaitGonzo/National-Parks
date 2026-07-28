@@ -1,0 +1,64 @@
+﻿National_Park_ID,State,Main_Visitor_Center,Closest_Airport,Distance_in_Miles,Travel_Time_Minutes,Visitor_Center_Latitude,Visitor_Center_Longitude,Airport_Latitude,Airport_Longitude
+001,ME,Hulls Cove VC,Bangor Intl (BGR),48.60,74,44.3779,-68.2597,44.8074,-68.8281
+002,UT,Arches VC,Salt Lake City Intl (SLC),235.00,224,38.616,-109.6003,40.7899,-111.9791
+003,SD,Ben Reifel VC,Rapid City Regional (RAP),68.10,69,43.8554,-102.3397,44.0453,-103.0574
+004,TX,Panther Junction VC,Midland Intl (MAF),221.00,214,29.326,-103.205,31.9425,-102.202
+005,FL,Dante Fascell VC,Miami Intl (MIA),33.20,59,25.4823,-80.2088,25.7959,-80.287
+006,CO,South Rim VC,Montrose Regional (MTJ),16.30,25,38.5754,-107.7416,38.5098,-107.8947
+007,UT,Bryce VC,Salt Lake City Intl (SLC),273.00,244,37.6283,-112.1677,40.7899,-111.9791
+008,UT,Island in the Sky VC,Salt Lake City Intl (SLC),248.00,250,38.4733,-109.8613,40.7899,-111.9791
+009,UT,Capital Reef VC,Salt Lake City Intl (SLC),227.00,217,38.2844,-111.2615,40.7899,-111.9791
+010,NM,Carlsbad Caverns VC,El Paso Intl (ELP),145.00,142,32.1479,-104.5567,31.8072,-106.378
+011,CA,The Robert J. Lagomarsino Visitor Center,Los Angeles Intl (LAX),72.70,114,34.017,-119.7035,33.9416,-118.4085
+012,SC,Harry Hampton VC,Columbia Metro (CAE),24.20,36,33.796,-80.782,33.9388,-81.1195
+013,OR,Rim VC,Rogue Valley Intl (MFR),78.30,105,42.911,-122.1483,42.3742,-122.8735
+014,OH,Boston Store VC,Cleveland Hopkins Intl (CLE),24.50,30,41.264,-81.5615,41.4117,-81.8498
+015,CA,Furnace Creek VC,Harry Reid Intl (LAS),119.00,131,36.4623,-116.8656,36.084,-115.1537
+016,AK,Denali VC,,244.00,260,63.7286,-148.8867,61.1743,-149.9985
+017,FL,Fort Jefferson VC,Key West Intl (EYW),68.00,284,24.6285,-82.8731,24.5561,-81.7596
+018,FL,Ernest Coe VC,Miami Intl (MIA),42.90,66,25.3947,-80.583,25.7959,-80.287
+019,AK,Arctic Interagency VC,Fairbanks Intl (FAI),181.00,380,64.8378,-147.7164,64.8151,-147.856
+020,MO,Gateway Arch VC,St. Louis Lambert Intl (STL),14.10,15,38.6247,-90.1848,38.7487,-90.37
+021,AK,Glacier Bay National Park VC,Juneau Intl (JNU),51.00,300,58.4569,-135.8848,58.3549,-134.5763
+022,MT,Apgar VC,Glacier Park Intl (FCA),26.00,36,48.5276,-113.9916,48.3105,-114.2551
+023,AZ,Grand Canyon VC,Flagstaff Pulliam (FLG),89.60,91,36.0566,-112.1251,35.1385,-111.6712
+024,WY,Craig Thomas VC,Jackson Hole (JAC),4.90,8,43.7904,-110.6818,43.6073,-110.7377
+025,NV,Great Basin VC,Salt Lake City Intl (SLC),228.00,219,38.9833,-114.3064,40.7899,-111.9791
+026,CO,Great Sand Dunes VC,Denver Intl (DEN),255.00,256,37.7916,-105.5943,39.8561,-104.6737
+027,TN,Sugarlands VC,McGhee Tyson Airport (TYS),39.70,68,35.6845,-83.5364,35.811,-83.994
+028,TX,Pine Springs VC,El Paso Intl (ELP),104.00,108,31.923,-104.8367,31.8072,-106.378
+029,HI,Headquarters VC,,27.50,50,20.7204,-156.1552,20.8987,-156.4305
+030,HI,Kilauea VC,Hilo Intl (ITO),29.40,44,19.4194,-155.2885,19.7203,-155.0485
+031,AR,Fordyce Bathhouse VC,Bill and Hillary Clinton National (LIT),54.50,53,34.5037,-93.0553,34.7294,-92.2243
+032,IN,Indiana Dunes VC,Chicago O'Hare Intl (ORD),68.00,114,41.6533,-87.0524,41.9742,-87.9073
+033,MI,Houghton VC,Houghton County (CMX),66.00,360,47.2472,-88.4537,47.1684,-88.4891
+034,CA,Joshua Tree VC,Palm Springs Intl (PSP),53.70,65,33.7206,-116.2156,33.8297,-116.5073
+035,AK,Brooks Camp VC,Ted Stevens Anchorage Intl (ANC),325.00,165,58.5559,-155.7777,61.1743,-149.9985
+036,AK,Exit Glacier VC,Ted Stevens Anchorage Intl (ANC),131.00,147,60.188,-149.631,61.1743,-149.9985
+037,CA,Grant Grove VC,Fresno Intl (FAT),53.70,78,36.7368,-118.969,36.7762,-119.7181
+038,AK,Northwest Arctic Heritage Center,Ted Stevens Anchorage Intl (ANC),549.00,120,66.897,-162.596,61.1743,-149.9985
+039,AK,Port Alsworth VC,Ted Stevens Anchorage Intl (ANC),165.00,90,60.2016,-154.3128,61.1743,-149.9985
+040,CA,Kohm Yah-mah-nee VC,Sacramento Intl (SMF),173.00,166,40.4426,-121.5166,38.6951,-121.5908
+041,KY,Mammoth Cave VC,Louisville Muhammad Ali Intl (SDF),88.90,84,37.1869,-86.101,38.17417,-85.73639
+042,CO,Mesa Verde VC,Durango-La Plata (DRO),49.30,56,37.319,-108.462,37.1515,-107.7538
+043,WA,Henry M. Jackson VC,Seattle-Tacoma Intl (SEA),94.20,142,46.7868,-121.7353,47.4502,-122.3088
+044,AS,National Park of American Samoa VC,Pago Pago Intl (PPG),8.80,27,-14.2783,-170.6889,-14.331,-170.71
+045,WV,Canyon Rim VC,West Virginia Intl (CRW),61.10,72,38.0682,-81.0795,38.3731,-81.5932
+046,WA,North Cascades VC,Seattle-Tacoma Intl (SEA),129.00,163,48.6663,-121.2667,47.4502,-122.3088
+047,WA,Port Angeles VC,,125.00,145,48.1007,-122.7713,47.4502,-122.3088
+048,AZ,Painted Desert VC,Albuquerque Intl (ABQ),212.00,182,35.0654,-109.7815,35.0402,-106.6092
+049,CA,Pinnacles Park Store,San Jose Intl (SJC),80.50,99,36.4935,-121.1466,37.3639,-121.9289
+050,CA,Thomas H. Kuchel VC,California Redwood Coast-Humboldt County Airport (ACV),26.00,30,41.2132,-124.0046,40.9778,-124.1083
+051,CO,Beaver Meadows VC,Denver Intl (DEN),77.80,105,40.3565,-105.601,39.8561,-104.6737
+052,AZ,Red Hills VC,Tucson Intl (TUS),22.00,39,,,32.1161,-110.941
+053,CA,Foothills VC,Fresno Yosemite Intl (FAT),83.00,94,,,36.7762,-119.7181
+054,VA,"Harry F. Byrd, Sr. VC",Dulles Intl (IAD),91.20,121,,,38.9531,-77.4565
+055,ND,South Unit VC,Bismarck (BIS),138.00,129,,,46.7727,-100.7467
+056,VI,Cruz Bay VC,Cyril King Intl (STT),15.20,60,,,18.3373,-64.9734
+057,MN,Rainy Lake VC,Falls Intl (INL),14.10,21,,,48.5662,-93.4031
+058,NM,White Sands VC,El Paso Intl (ELP),97.90,95,,,31.8072,-106.378
+059,SD,Wind Cave VC,Rapid City Regional (RAP),63.20,71,,,44.0453,-103.0574
+060,AK,Wrangell-St. Elias VC,,195.00,228,,,61.1743,-149.9985
+061,WY,Albright VC,Bozeman Yellowstone Intl (BZN),92.80,104,,,45.7775,-111.153
+062,CA,Yosemite Valley Welcome Center,Fresno Yosemite Intl (FAT),97.20,153,,,36.7762,-119.7181
+063,UT,Zion Canyon VC,Harry Reid Intl (LAS),172.00,162,,,36.084,-115.1537
